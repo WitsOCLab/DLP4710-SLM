@@ -16,8 +16,11 @@ If you find this work useful, please consider citing or acknowledging it. If you
 The designs have been verified with an Ultimaker S3 using Cura with the following settings:
 
 > **Layer height:** 0.1 mm
+
 > **Infill:** 80%
+
 > **Adhesion:** No
+
 > **Support:** No
 
 **If you have been successful with other printers / settings, please let me know.**
@@ -25,4 +28,5 @@ The designs have been verified with an Ultimaker S3 using Cura with the followin
 ## Useful URLs
 
 https://www.ti.com/tool/DLPDLCR4710EVM-G2
+
 https://www.ti.com/tool/DLP4710EVM-LC
