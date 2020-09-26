@@ -1,0 +1,24 @@
+% Pregenerates some frames to be displayed fullscreen and then times how
+% long it takes to display these frames a number of times.
+
+%% Adjust accordingly:
+screenNumber = 2; 
+count = 60*3;
+
+%% Work the magic
+[s,res] = fullscreenInfo();
+imageSize = res(:,:,screenNumber); 
+
+numFrames = 10;
+%frames = randn(imageSize(1), imageSize(2), numFrames);
+frames = randn(imageSize(1), imageSize(2), numFrames);
+
+tic;
+for index = 1:count
+    fullscreen(frames(:,:,mod(index,numFrames)+1), screenNumber);
+end
+t = toc;
+
+closescreen(screenNumber);
+
+fprintf('fullscreen works at %g frames per second!\n', count/t);
