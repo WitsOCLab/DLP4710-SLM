@@ -1,15 +1,16 @@
 # DLP4710-SLM
-A 3D printed modification to the DLP4710EVM DMD to turn it into a lab-usable spatial light modulator.
+A 3D printed modification to the DLP4710EVM DMD to turn it into a lab-usable spatial light modulator. Optimised example MATLAB code for displaying Laguerre-Gauss holograms fullscreen are in the Examples folder.
 
-Created by: Mitchell A. Cox in 2020 :: www.wits.ac.za/eie
+**Created by:** Mitchell A. Cox in 2020 :: www.wits.ac.za/eie
+**License:** CC-BY-SA-4.0
 
 ## Reference
 
 Please note that build instructions, photos, etc. are in the following paper:
 
-...
+... Under review ...
 
-If you find this work useful, please consider citing or acknowledging it. If you make improvements, please send me a pull request.
+If you find this work useful, please consider citing or acknowledging it. If you make improvements, please send a pull request.
 
 ## 3D Printer Settings
 
