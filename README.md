@@ -21,6 +21,7 @@ The designs have been verified with an Ultimaker S3 using Cura with the followin
 > **Infill:** 80%
 > **Adhesion:** No
 > **Support:** No
+> **Material:** Black Strong PLA
 
 **If you have been successful with other printers / settings, please let me know.**
 
