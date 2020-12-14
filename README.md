@@ -29,3 +29,13 @@ The designs have been verified with an Ultimaker S3 using Cura with the followin
 https://www.ti.com/tool/DLPDLCR4710EVM-G2
 
 https://www.ti.com/tool/DLP4710EVM-LC
+
+## Updating the Firmware
+
+Some firmware updating is required so that the LEDs are disabled on start (otherwise it won't turn on as it thinks the LEDs are broken) and to set the input source to the HDMI port.
+
+For some reason the Texas Instruments software for the DLP4710-G2 evaluation board doesn't update the firmware. It says it does, but it doesn't (it's pretty clear that nothing happens as it's too quick when one tries). Instead, the software meant for the DLP4710-LC must be used. It will complain about the wrong board, but it still works. The screenshot below shown the place where this should be done and how it looks.
+
+A firmware image from TI is in the firmware directory in this repo. A batch file to switch off the LEDs and set the input is also included. You are welcome to download this firmware from TI but this is more convenient... Please note that if you try to flash the wrong firmware or if something goes wrong using my "unofficial" firmware, it's at your own risk.
+
+![DLP4710LC Update Screenshot](https://github.com/WitsOCLab/DLP4710-SLM/blob/master/Docs/firmwareupdate.jpg?raw=true)
