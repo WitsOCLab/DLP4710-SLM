@@ -9,7 +9,7 @@ A 3D printed modification to the DLP4710EVM DMD to turn it into a lab-usable spa
 
 Please note that build instructions, photos, etc. are in the following paper:
 
-... Under review ...
+M. A. Cox, A. V. Drozdov, "Converting a Texas Instruments DLP4710 DLP evaluation module into a spatial light modulator," Applied Optics, in press.
 
 If you find this work useful, please consider citing or acknowledging it. If you make improvements, please send a pull request.
 
