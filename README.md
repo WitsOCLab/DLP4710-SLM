@@ -25,6 +25,10 @@ The designs have been verified with an Ultimaker S3 using Cura with the followin
 
 **If you have been successful with other printers / settings, please let me know.**
 
+## Errata / ProTips
+
+* The DMD is quite a tight squeeze into the face-plate.
+
 ## Useful URLs
 
 https://www.ti.com/tool/DLPDLCR4710EVM-G2
